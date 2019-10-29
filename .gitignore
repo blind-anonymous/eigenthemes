@@ -1,0 +1,6 @@
+*.json
+*.pickle
+*.zip
+*.DS_Store
+*logs*
+*errors*
