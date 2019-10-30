@@ -9,7 +9,7 @@ import numpy as np
 ent2search = {}
 mnt2pos = {}
 subtotal = 0
-total = 0
+total = 4144 # This is the actual total number of mentions in Le and Tivov. Taken from https://github.com/lephong/dl4el
 acc_degree = []
 acc_prom = []
 acc_string_prom = []
@@ -27,9 +27,6 @@ with open("./data/aida_test_complete_le_titov.json", "r") as f:
             FBprom = mnt['positives-FBprom']
             pos_names = mnt['positives-name']
             ent_name = mnt['entity-name']
-            if len(pos) == 0:
-                continue 
-            total += 1
             cand2name = []
             cand_name = []
             cand2degree = []
