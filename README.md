@@ -1,9 +1,6 @@
 # Eigenthemes
 Source code for "Low-rank Subspaces for Entity Linking without Annotated Data"
 
-## Important Note
-There is a minor inconsitency in the notation used for denoting the number of components of the learned subspace in the paper. Both the symbol *'n'* and *'k'* have been used in different parts of the paper for denoting the number of components. We respectfully request the reviewers to kindly ignore this minor error. Furthermore, we feel it should be quite clear to the reader given the context.
-
 ## Detailed instructions to run the code
 1. Clone this repository using `git clone https://github.com/blind-anonymous/eigenthemes.git`
 2. Download [Anaconda](https://www.anaconda.com/distribution/#download-section) (64-bit Python 3.7 version)
