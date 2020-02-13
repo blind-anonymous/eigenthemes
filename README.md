@@ -1,5 +1,5 @@
 # Eigenthemes
-Source code for "Low-rank Subspaces for Entity Linking without Annotated Data"
+Source code for "Low-rank Subspaces for Unsupervised Entity Linking"
 
 ## Detailed instructions to run the code
 1. Clone this repository using `git clone https://github.com/blind-anonymous/eigenthemes.git`
