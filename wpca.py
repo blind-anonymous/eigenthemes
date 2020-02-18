@@ -9,10 +9,6 @@ from utils_wpca import check_array_with_weights, weighted_mean
 class WPCA(BaseEstimator, TransformerMixin):
     """Weighted Principal Component Analysis
 
-    This is a direct implementation of weighted PCA based on the eigenvalue
-    decomposition of the weighted covariance matrix following
-    Delchambre (2014) [1]_.
-
     Parameters
     ----------
     n_components : int (optional)
@@ -48,10 +44,6 @@ class WPCA(BaseEstimator, TransformerMixin):
     - PCA
     - sklearn.decomposition.PCA
 
-    References
-    ----------
-    .. [1] Delchambre, L. MNRAS 2014 446 (2): 3545-3555 (2014)
-           http://arxiv.org/abs/1412.4533
     """
     def __init__(self, n_components=None, xi=0, regularization=None,
                  copy_data=True, mean_centering=True):

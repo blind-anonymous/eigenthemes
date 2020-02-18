@@ -1,12 +1,11 @@
 # Eigenthemes
-Source code for "Low-rank Subspaces for Entity Linking without Annotated Data"
-
-## Important Note
-There is a minor inconsitency in the notation used for denoting the number of components of the learned subspace in the paper. Both the symbol *'n'* and *'k'* have been used in different parts of the paper for denoting the number of components. We respectfully request the reviewers to kindly ignore this minor error. Furthermore, we feel it should be quite clear to the reader given the context.
+Source code for "Low-rank Subspaces for Unsupervised Entity Linking"
 
 ## Detailed instructions to run the code
 1. Clone this repository using `git clone https://github.com/blind-anonymous/eigenthemes.git`
 2. Download [Anaconda](https://www.anaconda.com/distribution/#download-section) (64-bit Python 3.7 version)
+    * The Anaconda installer would provide the following prompt: *'Do you wish the installer to initialize Anaconda3 by running conda init? [yes|no]'*. Answering *'yes'* would make your life simpler, as your *'bashrc'/'bash_profile'* would be automatically updated with all the environment variables properly set.
+    * If you choose to answer *'yes'* in the previous step, please run `source <path-to-your bashrc or bash_profile>` to set all the environment variables properly in your currently active terminal.
 3. Setup the virtual environment named `el` to install all the required dependencies
 	`conda env create -f el.yml`
 4. Activate the installed environment
