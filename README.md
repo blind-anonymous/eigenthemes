@@ -16,7 +16,7 @@ Source code for "Low-rank Subspaces for Unsupervised Entity Linking"
 6. Download the *resources*  for Le and Titov (pretrained `models`) available via [google drive](https://drive.google.com/drive/folders/11S2otREtrcevK_eCoc4yo2N190nBouxc?usp=sharing) (no sign-in required)
     1. Unzip the *models.zip* file in the empty `models` directory provided with the code repository   
     **Important Note: If you want to train the model from scratch, you have to remove the current saved model (if existent) using `rm -rf models/*`. Retrain the models using `bash train_taumilnd.sh`, which will train five different models on the train set**
-7. **Reproducing results presented in Table-3**
+7. **Reproducing results presented in Table-3 and Table-4**
     * **NameMatch Baseline**: Run `python baselines_table3.py`. This script will produce the results for the name-matching baseline as described in the paper for each of the four datasets considered in this study.
     * **<img src="https://render.githubusercontent.com/render/math?math=\tau">MIL-ND by Le and Titov**: Run `bash evaluate_taumilnd.sh`. This script will produce the results for the state of the art <img src="https://render.githubusercontent.com/render/math?math=\tau">MIL-ND for each of the four datasets considered in this study. It also outputs the *mean* and *standard deviation* of precision@1 and MRR over five independent runs of <img src="https://render.githubusercontent.com/render/math?math=\tau">MIL-ND on the terminal.
     * **Other Techniques**: Run `python unsupervised_el.py`. This script will produce the results for five techniques, namely (1) Avg, (2) Eigen, (3) WAvg, (4) Degree, and (5) WEigen for all the four considered datasets. The descriptions of the techniques can be found in the paper.
