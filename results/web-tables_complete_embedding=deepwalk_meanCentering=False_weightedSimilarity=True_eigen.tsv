@@ -1,2 +1,0 @@
-Hyperparams	#EasyMentions	Ceiling-Easy(Micro)	Accuracy-Easy(Micro)	MRR-Easy(Micro)	#HardMentions	Ceiling-Hard(Micro)	Accuracy-Hard(Micro)	MRR-Hard(Micro)	#Mentions	Ceiling(Micro)	Accuracy(Micro)	MRR(Micro)	#EasyDocs	Ceiling-Easy(Macro)	Accuracy-Easy(Macro)	MRR-Easy(Macro)	#HardDocs	Ceiling-Hard(Macro)	Accuracy-Hard(Macro)	MRR-Hard(Macro)	#Docs	Ceiling(Macro)	Accuracy(Macro)	MRR(Macro)
-20_10	26373.0	100.000%	71.535%	78.795%	7658.0	100.000%	47.467%	61.788%	54499.0	62.443%	41.287%	46.813%	1892	100.000%	78.721%	84.674%	1230	100.000%	44.090%	59.146%	2310	61.726%	42.624%	47.541%
